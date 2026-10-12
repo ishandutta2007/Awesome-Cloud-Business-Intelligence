@@ -58,7 +58,7 @@ Below is a detailed comparison of industry-leading commercial cloud business int
 
 Open-source BI projects empower engineering teams to maintain full control over compliance, customize semantic layers, avoid recurring per-seat SaaS costs, and achieve transparent version control.
 
-The list below is ordered by **GitHub Stars_Counts (Descending)**. Stars_Badges link directly to each repository's stargazers community.
+The list below is ordered by **GitHub_Stars_Counts (Descending)**. Stars_Badges link directly to each repository's stargazers community.
 
 | Project | GitHub_Stars (Social Badge) | License | Architecture & Key Strengths |
 | :--- | :---: | :---: | :--- |
