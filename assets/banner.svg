@@ -19,18 +19,13 @@
     </linearGradient>
 
     <linearGradient id="barGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#4facfe" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.85"/>
+      <stop offset="0%" stop-color="#4facfe" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0.9"/>
     </linearGradient>
 
     <linearGradient id="barGrad2" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#ff0080" stop-opacity="0.85"/>
-    </linearGradient>
-
-    <linearGradient id="gridGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38ef7d" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#11998e" stop-opacity="0.4" />
+      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ff0080" stop-opacity="0.9"/>
     </linearGradient>
 
     <!-- Glow Filter -->
@@ -54,15 +49,11 @@
   <style>
     @keyframes floatOrb1 {
       0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(40px, -25px) scale(1.15); }
+      50% { transform: translate(30px, -20px) scale(1.1); }
     }
     @keyframes floatOrb2 {
       0%, 100% { transform: translate(0px, 0px) scale(1); }
-      50% { transform: translate(-35px, 20px) scale(1.1); }
-    }
-    @keyframes pulseLine {
-      0%, 100% { stroke-dashoffset: 0; opacity: 0.85; }
-      50% { stroke-dashoffset: 40; opacity: 0.4; }
+      50% { transform: translate(-25px, 15px) scale(1.08); }
     }
     @keyframes barWave1 {
       0%, 100% { height: 95px; y: 225px; }
@@ -100,14 +91,14 @@
   <!-- Background Base -->
   <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
 
-  <!-- Animated Ambient Orbs (Background depth) -->
-  <g opacity="0.35">
+  <!-- Animated Ambient Orbs -->
+  <g opacity="0.32">
     <circle class="orb-1" cx="220" cy="90" r="140" fill="#00f2fe" filter="url(#glow)" />
     <circle class="orb-2" cx="1020" cy="270" r="160" fill="#7928ca" filter="url(#glow)" />
     <circle class="orb-1" cx="880" cy="70" r="110" fill="#ff0080" filter="url(#glow)" />
   </g>
 
-  <!-- Subtle Perspective Grid Lines -->
+  <!-- Perspective Grid Lines -->
   <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="1">
     <line x1="0" y1="90" x2="1200" y2="90" />
     <line x1="0" y1="180" x2="1200" y2="180" />
@@ -121,7 +112,7 @@
   </g>
 
   <!-- Graphic Component: Futuristic Data Analytics Chart in Right Background -->
-  <g opacity="0.82" transform="translate(680, 20)">
+  <g opacity="0.85" transform="translate(680, 20)">
     <!-- Chart baseline -->
     <line x1="60" y1="300" x2="480" y2="300" stroke="#334155" stroke-width="2" />
     
@@ -148,49 +139,49 @@
   <g transform="translate(70, 0)">
     <!-- Category Pill / Badge -->
     <g transform="translate(0, 48)">
-      <rect width="260" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6"/>
+      <rect width="250" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6"/>
       <circle cx="16" cy="15" r="4.5" fill="#00f2fe" />
       <text x="30" y="20" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">CURATED ECOSYSTEM 2026</text>
     </g>
 
-    <!-- Main Title (Unobstructed Foreground) -->
+    <!-- Main Title -->
     <text x="0" y="132" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="44" letter-spacing="-0.8">
       Awesome Cloud <tspan fill="url(#cyanGrad)">BI</tspan>
     </text>
 
-    <!-- Subtitle (Clear, readable, high contrast) -->
-    <text x="0" y="174" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="400">
+    <!-- Subtitle -->
+    <text x="0" y="174" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="400">
       The definitive directory of Cloud Business Intelligence, Modern Data Platforms &amp; Open-Source Analytics
     </text>
 
-    <!-- Key Capability Badges / Tags -->
+    <!-- Feature Tag Chips -->
     <g transform="translate(0, 222)">
-      <!-- Tag 1: Enterprise SaaS -->
+      <!-- Tag 1 -->
       <g transform="translate(0, 0)">
-        <rect width="138" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
-        <text x="14" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🏢 Enterprise SaaS</text>
+        <rect width="146" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="14" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Enterprise SaaS</text>
       </g>
-      <!-- Tag 2: Open Source -->
-      <g transform="translate(148, 0)">
-        <rect width="134" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
-        <text x="14" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">⚡ Open Source</text>
+      <!-- Tag 2 -->
+      <g transform="translate(156, 0)">
+        <rect width="136" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="14" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Open Source</text>
       </g>
-      <!-- Tag 3: Semantic Layer -->
-      <g transform="translate(292, 0)">
+      <!-- Tag 3 -->
+      <g transform="translate(302, 0)">
+        <rect width="150" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
+        <text x="14" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Semantic Layers</text>
+      </g>
+      <!-- Tag 4 -->
+      <g transform="translate(462, 0)">
         <rect width="144" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
-        <text x="14" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🧠 Semantic Layers</text>
-      </g>
-      <!-- Tag 4: Real-Time OLAP -->
-      <g transform="translate(446, 0)">
-        <rect width="140" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2"/>
-        <text x="14" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📊 Real-Time OLAP</text>
+        <text x="14" y="22" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Real-Time OLAP</text>
       </g>
     </g>
 
     <!-- Bottom Metadata Stats Row -->
     <g transform="translate(0, 290)">
       <text x="0" y="20" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">
-        🌟 330k+ Community Stars &nbsp;|&nbsp; 🔄 Market Pricing &amp; Tier Limits &nbsp;|&nbsp; 📈 Market Size &amp; Dynamics
+        330k+ Community Stars &#x2022; Market Pricing &amp; Tier Limits &#x2022; Market Size &amp; Dynamics
       </text>
     </g>
   </g>
