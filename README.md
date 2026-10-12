@@ -2,7 +2,9 @@
   <img src="assets/banner.svg" alt="Awesome Cloud Business Intelligence Banner" width="100%" />
 </p>
 
-# 🌐 Awesome Cloud Business Intelligence (BI) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Tracked Tools](https://img.shields.io/badge/Tools_Tracked-25+-blue?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+# 🌐 Awesome Cloud Business Intelligence (BI)
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Tracked Tools](https://img.shields.io/badge/Tools_Tracked-25+-blue?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > 🚀 **The definitive, curated directory of Cloud Business Intelligence (Cloud BI) platforms, self-service enterprise analytics, semantic layers, and open-source data visualization tools.**
 
@@ -16,6 +18,8 @@ Whether you are evaluating modern enterprise SaaS BI tools or deploying self-hos
 - [🏢 Enterprise SaaS & Hosted BI Platforms](#-enterprise-saas--hosted-bi-platforms)
 - [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
 - [🛠️ Modern BI Architectural Patterns](#️-modern-bi-architectural-patterns)
+- [💖 Support & Sponsor](#-support--sponsor)
+- [⭐ Star History](#-star-history)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚖️ Disclaimer](#️-disclaimer)
 
@@ -92,6 +96,22 @@ flowchart LR
 1. **Warehouse / Lakehouse-Native Analytics**: Eliminates siloed data extraction; platforms like Sigma, ThoughtSpot, and Evidence execute analytical queries directly against Snowflake, Databricks, BigQuery, or DuckDB.
 2. **Headless Semantic Layers**: Centralizes business metrics (e.g., definitions for "Monthly Recurring Revenue", "Active Users") in code (Cube, dbt Semantic Layer, LookML) ensuring uniform figures across every frontend.
 3. **BI as Code (GitOps for Analytics)**: Dashboards and models stored in Git repositories with peer reviews, CI/CD validation, and zero manual drift.
+
+---
+
+## 💖 Support & Sponsor
+
+Thank you for exploring this curated repository! If you find this guide helpful for your team, research, or projects, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and share** it with your fellow data analysts, engineers, and architects.
+- ☕ **Buy a coffee / Sponsor**: If you'd like to support ongoing updates and maintenance, visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Business-Intelligence&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Business-Intelligence&type=date&legend=top-left)
 
 ---
 
